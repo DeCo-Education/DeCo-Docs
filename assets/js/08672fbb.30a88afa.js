@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkde_co_docs=self.webpackChunkde_co_docs||[]).push([[2661],{5650:function(s){s.exports=JSON.parse('{"label":"docusaurus","permalink":"/deco.github.io/blog/tags/docusaurus","allTagsPath":"/deco.github.io/blog/tags","count":4}')}}]);
