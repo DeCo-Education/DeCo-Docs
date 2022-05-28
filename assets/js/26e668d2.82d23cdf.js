@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkde_co_docs=self.webpackChunkde_co_docs||[]).push([[7808],{9873:function(e){e.exports=JSON.parse('{"label":"hello","permalink":"/deco-docs/blog/tags/hello","allTagsPath":"/deco-docs/blog/tags","count":2}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkde_co_docs=self.webpackChunkde_co_docs||[]).push([[6518],{704:function(o){o.exports=JSON.parse('{"label":"facebook","permalink":"/deco-docs/blog/tags/facebook","allTagsPath":"/deco-docs/blog/tags","count":1}')}}]);

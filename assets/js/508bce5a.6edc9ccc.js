@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkde_co_docs=self.webpackChunkde_co_docs||[]).push([[6e3],{2238:function(e){e.exports=JSON.parse('{"label":"hello","permalink":"/deco.github.io/blog/tags/hello","allTagsPath":"/deco.github.io/blog/tags","count":2}')}}]);
