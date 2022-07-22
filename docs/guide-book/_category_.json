@@ -1,0 +1,9 @@
+{
+    "label": "Adventure Guide Book",
+    "position": 4,
+    "link": {
+      "type": "generated-index",
+      "description": "A guide book to principles and species that will be helpful in your development journey"
+    }
+  }
+  
