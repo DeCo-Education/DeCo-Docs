@@ -28,5 +28,16 @@ There will be exercises and discussion topics that will be included in each less
 
 Though often goes unnoticed, finishing is as important as starting. Make sure that you let all members know that class has been adjourned and cheers to everyones success of going through it together. Have a hang out session after if you'd enjoy a good ole bonding.
 
+## Where should I run a Cabin Session
+
+In short: DeCo Discord Server
+
+DeCo's server is set up so that there are extensive amounts of rooms that are created for the usage as an online classroom. Having a cabin session in a public voice chat provides the opportunity for community members to chime in and be a part of your group. The more the merrier right? ;)
+
+However, if you prefer to have a private session. Reach out to @Core so that we can set up a private chat and voice room for you guys. :)
+
+## When should I run a Cabin Session
+
+As stated, your group decides on the time and date for your meets! :)
 
 ### With that, you're ready for your first Cabin Session!
