@@ -45,6 +45,20 @@ It's easier as 1, 2, 3, 4.
 4. Celebrate the milestone with your group! *(If you ain't party-ing and celebrating, you ain't DeCo-ing)*
 
 
-## Extra Guide on Running **Trail Sessions**
+## Quick and Short Guide on Running **Trail Sessions**
 
-We're gonna include as much materials in each lessons as possible to make the experience of teaching seamless. However here are a few things to keep in mind that will help ensure a smoother and enjoyable experience. 
+We're gonna include as much materials in each lessons as possible to make the experience of teaching seamless. However here are a few things to keep in mind that will help ensure a smoother and enjoyable experience.
+
+### Preparation
+
+Go through the lessons before the class *(Pay special attention to Cabin Leader's Note that will look like this)*
+
+```text title="Cabin Leader's Note"
+This is an example for a Cabin Leader's note
+```
+
+Most of the time, a Cabin Leader's Note will include exercises or discussions to think about. However it is just a suggestions. We strongly believe teaching is as much as an art as playing music. So the best way to be a Cabin Leader is to go through the lessons and teach the way you would like to be taught. 
+
+### Exercises and Homeworks
+
+At the end of each lesson, we will include homeworks and exercises if necessary to recap or prepare for the next lessons. Though it is not absolutely necessary, ensuring that homeworks are done by the group can help enforce a sense of accountability within your group.
