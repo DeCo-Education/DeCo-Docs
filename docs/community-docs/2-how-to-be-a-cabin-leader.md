@@ -19,6 +19,8 @@ Cabin leaders are members
 - Who love the idea of communities and would love to strengthen the education community within Ergo through DeCo.
 - Who is interested in developing leadership and teaching skills through facilitating other members in their blockchain education journey.
 
+In short, anybody can be a cabin leader, as long as they take the initiative!
+
 ## What do I need, to be a Successful Cabin Leader
 Being a Cabin Leader is not rocket science, it does not require intricate skills like how a neurosurgeon would have to be train. All it requires is a desire to teach/contribute.
 
@@ -43,7 +45,6 @@ It's easier as 1, 2, 3, 4.
 2. Set a time and occurence to meet however often your group can *(Once a week, twice a week, 5 times a week, however much you want and can handle)*
 3. Go through **Trails** lessons with your new group. *(One lesson per session, 2 lessons per session. However fast you guys want to. There are teachers note in there and guides on questions and discussions. Your main job is to facilitate the lesson and discussion)*
 4. Celebrate the milestone with your group! *(If you ain't party-ing and celebrating, you ain't DeCo-ing)*
-
 
 ## Quick and Short Guide on Running **Trail Sessions**
 
