@@ -6,6 +6,10 @@ sidebar_position: 4
 
 # Lesson 5. Hands-On - Minting a Token
 
+```text title="Completion Status"
+Version: Semi drafted (NOT DONE)
+```
+
 This is our first hands-on session. So let's get started. In this session, we will be working on designing an NFT box together.
 
 First of, we have to understand what an NFT box is.

@@ -6,6 +6,10 @@ sidebar_position: 3
 
 # Lesson 4: Knowledge - What are Tokens & NFTs
 
+```text title="Completion Status"
+Version: 1st Version
+```
+
 If you were at the hype of 2021 or if you're into art. You'll probably know what NFT's are. If you don't, there are a lot of articles out there that explains NFTs/tokens pretty well.
 
 Like [here](https://www.investopedia.com/non-fungible-tokens-nft-5115211).
