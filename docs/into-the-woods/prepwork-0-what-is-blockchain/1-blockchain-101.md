@@ -20,52 +20,103 @@ Depending on the blockchain, they can store Value (Bitcoin network) or Value and
 It can be viewed as a decentralized ledger where all the information that is stored on it, are immutables, meaning that all information, once confirmed by the protocol, becomes unchangeable.
 
 ---
+### What is a Block?
 
-### Where comes the Security?
+A block can be defined as a group of transactions, where generally multiple transactions at a single point in time are stored together thus forming one block.
 
-The security of a blockchain is created by the sum of the __Miners/Validators__ of the same network.
+In Ergo the first block is called 'Genesis' and each block is created with approximately 2 minutes interval between.
 
-There are many _types/consensus_ of Blockchains, and each one has his own features, for example:
-
-- __Proof-of-Work__
-  - Bitcoin, Ergo,...
-  - The block validation and token issuances are created by the __Miners__.
-- __Proof-of-Stake__
-  -  Cardano, ...
-  - The block validation and token issuances are created by the __Node Validators__.
--  __Pure Proof-of-Stake__
-    - Algorand, ...
-- The block validation and token issuances are created by the __Holders Validators__.
-- __Proof-Of-History__
-  - Solana, ...
-- The block validation and token issuances are created by the __Time Validators__.
-- __Proof-Of-Space__
-  - Chia, ...
-- The block validation and token issuances are created by the __Storage Validators__.
-- and many more...
-
-Given Proof-of-Work(PoW) as example, the more Miners a network has, the more secure it is because if bad actors want to take advantage
- of the network (to be able to cancelled others transactions, double-spending tokens...), they have to had more than 51% to be able to attack it.
+```mermaid
+graph LR
+Block0[Block 'Genesis'] -->|2 min| Block1[Block 1]
+Block1 -->|2 min| Block2[Block 2]
+Block2 -->|2 min| Block3[Block 3]
+Block3 -->|2 min| Block4[Block ...]
+```
 
 ---
-### Blocks
+### What is an Address?
 
-We defined Blockchain as being a _Collection_ of _Blocks_, so lets find out what's inside a block.
+An eUTXO address is a container where one or more **boxes** are stored, that can hold value or data.
 
-Blocks have many characteristics for example:
+The address can be considered as a reference for all your boxes on the network and to access it, you must provide a valid combination of Public and Private keys.
 
--  __Value__ - Native Token (BTC, ERG, ADA, ...)
-- __Data__ - timestamp, block height,...
-- __Smart Contracts__ - NFT's for example
-    - only if the blockchain allows it. 
-    - The Bitcoin for example does not support natively Smart Contracts)
-- and so on...
+```mermaid
+graph TD
+Address[Address] --> box1[box 1]
+Address[Address] --> box2[box 2]
+Address[Address] --> box3[box 3]
+Address[Address] --> box4[box ...]
+```
 
 ---
+### What is a Box?
 
-### Quiz
+A box is a simple container for Value and Data. 
+Each Blockchain have different sections and criteria for the box creation but the most common are:
+
+- Value
+  - Section in which the transaction value is stored in its native form 
+- Data
+  - Section in which the transaction data is stored in form of a **Smart Contract**
+
+Natively, Bitcoin only allow to store Value while Ergo allows to store Value and Data.
+
+```mermaid
+graph LR
+BTC[Bitcoin Box] -->|can store| Value([Value])    
+ERG[Ergo Box] --> |can store| Value([Value])
+ERG[Ergo Box] --> |can store| Data([Data])
+Data --> SmartContracts([Smart Contracts])
+```
+
+---
+### What is a Smart Contract?
+
+A smart contract is an on-chain code that upon a successful validation, is executed on the blockchain creating a smart **transaction**.
+
+In Ergo the smart contract is called "Guard Script".
+
+---
+### What is a Transaction(Tx)?
+A transaction(TX for short) is when an exchange of Value/Data between two or more Addresses occurs.
+
+- In the Account model, a transaction only need to have **Input**.
+  - The Input can be the amount to send.
+- In the eUTXO model, a transaction need to have **Input** and will always have **Output**.
+  - The Output is what is considered the "change" meaning what's left in native token.
+
+To be a valid transaction, along with the GuardScript validation, it must follow the most basic rule: "the sum of the Input must be equal to the sum of the Output".
+
+In Ergo, the minimum for a transaction to be successful is 0,001 ERG.
+
+When a transaction is successful, the input box is called "spent box" and output boxes is called "unspent boxes"
+
+Then the transaction is added to the current network block and then a block to be successfully added to the full blockchain needs to be correctly **validated/secured** by the Network Miners.
+
+```mermaid
+sequenceDiagram
+Unspent ->>Spent Box: after a successful transaction, the box become spent
+```
+
+---
+### Where comes the Validation/Security?
+
+There are many Blockchains _consensus_ and each one has its own features but the most common are PoS and PoW.
+
+The block validation is taken care different if:
+- is Proof-of-Stake (PoS) the validation is taken care by Node validators/operators.
+- is Proof-of-Work (PoW) the validation is taken care by Miners. 
+
+Ergo is a Proof-of-Work(PoW) blockchain where Miners are an important part to maintain the security of the network.
+By security what is meant is that Miners provide Hardware (GPU's) that calculates long mathematical problems to ensure the correct continuity of chain.
+
+Is with this consensus that the blockchain remains secure without bad actors modifying blocks at own will.  
+
+---
+### Test your knowledge
 <details> 
-<summary> <strong>Pop Quiz: &nbsp;Can Ergo be considered a decentralized legder? </strong> </summary>
+<summary> <strong>&nbsp;Can Ergo be considered a decentralized legder? </strong> </summary>
 &emsp;<underline>Yes!</underline> <br>
 &emsp;Ergo is based on Blockchain technology which inherits all characteristics like decentralized ledger.<br>
 
