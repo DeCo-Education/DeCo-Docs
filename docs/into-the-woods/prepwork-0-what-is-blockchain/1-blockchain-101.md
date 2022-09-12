@@ -11,7 +11,7 @@ Version: 1st Version
 Question from Kii: I think this is an interesting part of development. Because it is generic yet it is somehow important. The question we should ask ourselves is not if we're actually have the right information for what Blockchain is, because there are other resources out there that can provide way better information as compared to what we can provide. The question to ourselves is, what information should be put into this article that can really benefit the students who are here to learn about Ergo dApp development.
 ```
 
-### What is a Blockchain?
+## What is a Blockchain?
 
 A blockchain can be seen as an immutable ledger that has the history of all transactions that ever existed on that blockchain. These transactions are completed in **Blocks**.
 
@@ -20,7 +20,7 @@ Depending on the blockchain, they can store Value (Bitcoin network) or Value and
 It can be viewed as a decentralized ledger where all the information that is stored on it, are immutables, meaning that all information, once confirmed by the protocol, becomes unchangeable.
 
 ---
-### What is a Block?
+## What is a Block?
 
 A block can be defined as a group of transactions, where generally multiple transactions at a single point in time are stored together thus forming one block.
 
@@ -28,14 +28,14 @@ In Ergo the first block is called 'Genesis' and each block is created with appro
 
 ```mermaid
 graph LR
-Block0[Block 'Genesis'] -->|2 min| Block1[Block 1]
-Block1 -->|2 min| Block2[Block 2]
-Block2 -->|2 min| Block3[Block 3]
-Block3 -->|2 min| Block4[Block ...]
+Block0[Block 'Genesis'] -->|2 min| Block1[Block Nº1]
+Block1 -->|2 min| Block2[Block Nº2]
+Block2 -->|2 min| Block3[Block Nº3]
+Block3 -->|2 min| Block4[Block Nº...]
 ```
 
 ---
-### What is an Address?
+## What is an Address?
 
 An eUTXO address is a container where one or more **boxes** are stored, that can hold value or data.
 
@@ -50,7 +50,7 @@ Address[Address] --> box4[box ...]
 ```
 
 ---
-### What is a Box?
+## What is a Box?
 
 A box is a simple container for Value and Data. 
 Each Blockchain have different sections and criteria for the box creation but the most common are:
@@ -71,26 +71,25 @@ Data --> SmartContracts([Smart Contracts])
 ```
 
 ---
-### What is a Smart Contract?
+## What is a Smart Contract?
 
 A smart contract is an on-chain code that upon a successful validation, is executed on the blockchain creating a smart **transaction**.
 
-In Ergo the smart contract is called "Guard Script".
+In Ergo a smart contract is also called a Guard Script.
 
 ---
-### What is a Transaction(Tx)?
-A transaction(TX for short) is when an exchange of Value/Data between two or more Addresses occurs.
+## What is a Transaction(Tx)?
+A transaction(TX for short) is when an exchange of Value/Data occurs, in this case, on a decentralized ledger.
 
-- In the Account model, a transaction only need to have **Input**.
-  - The Input can be the amount to send.
-- In the eUTXO model, a transaction need to have **Input** and will always have **Output**.
-  - The Output is what is considered the "change" meaning what's left in native token.
+In the eUTXO model, a transaction need to have **Input** and will always have an **Output**.
 
-To be a valid transaction, along with the GuardScript validation, it must follow the most basic rule: "the sum of the Input must be equal to the sum of the Output".
+When a TX is successfully added to a block:
+  - The Input is considered as "spent boxes".
+  - The Output is considered as "unspent boxes".
+
+To be a valid transaction, along with the Guard Script validation, it must follow the most basic rule: "the sum of the Input must be equal to the sum of the Output".
 
 In Ergo, the minimum for a transaction to be successful is 0,001 ERG.
-
-When a transaction is successful, the input box is called "spent box" and output boxes is called "unspent boxes"
 
 Then the transaction is added to the current network block and then a block to be successfully added to the full blockchain needs to be correctly **validated/secured** by the Network Miners.
 
@@ -100,7 +99,7 @@ Unspent ->>Spent Box: after a successful transaction, the box become spent
 ```
 
 ---
-### Where comes the Validation/Security?
+## Where comes the Validation/Security?
 
 There are many Blockchains _consensus_ and each one has its own features but the most common are PoS and PoW.
 
@@ -114,14 +113,46 @@ By security what is meant is that Miners provide Hardware (GPU's) that calculate
 Is with this consensus that the blockchain remains secure without bad actors modifying blocks at own will.  
 
 ---
-### Test your knowledge
+## Test your knowledge
 <details> 
-<summary> <strong>&nbsp;Can Ergo be considered a decentralized legder? </strong> </summary>
-&emsp;<underline>Yes!</underline> <br>
-&emsp;Ergo is based on Blockchain technology which inherits all characteristics like decentralized ledger.<br>
-
+<summary> <strong>&nbsp;Can Ergo be considered a decentralized ledger? </strong> </summary>
+&emsp; Yes! <br>
+&emsp; Ergo is based on Blockchain technology which inherits all characteristics like decentralized ledger.
+</details>
+<br>
+<details> 
+<summary> <strong>&nbsp;What type of boxes are created after a TX? </strong> </summary>
+&emsp; Ergo creates two types of boxes: <br>
+&emsp;&emsp; The "unspent boxes" and the "spent boxes" 
+</details>
+<br>
+<details> 
+<summary> <strong>&nbsp;What type of information can Ergo Blockchain store?</strong> </summary>
+&emsp; Ergo Blockchain supports natively the following type: <br>
+&emsp;&emsp; Value and Data.
 </details>
 
 ---
+## Conclusion
+Blockchain is a decentralized and immutable ledger that stores all the transactions history. 
+
+Has features like:
+1. Decentralized
+2. Secure
+3. Transparent
+4. Immutable
+
+And allows to:
+1. Be used as currency
+2. Be a store of value
+3. Create multiple projects on top of this features
+
+```text title="Cabin Sessions"
+Throughout this article, we discussed about what is Blockchain technology. Ask each Cabin Members about
+1. What they understand Blockchain
+2. Describe Blocks in their own words
+3. What kind of application can be or already has being implemented via Blockchain
+4. Discuss members opinions and give one exemple too. Blockchain is used for tracking token prices like "Ergo Oracle pools" 
+```
 
 In the next topic we will discuss more about __What is Ergo?__
