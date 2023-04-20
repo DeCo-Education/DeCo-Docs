@@ -19,7 +19,17 @@ Depending on the blockchain, they can store Value (Bitcoin network) or Value and
 
 It can be viewed as a decentralized ledger where all the information that is stored on it, are immutables, meaning that all information, once confirmed by the protocol, becomes unchangeable.
 
----
+It enables people to share and verify information securely and transparently. It operates like a digital ledger where data is stored in blocks that are linked to the previous block, creating a chain of information. Once data is added to the blockchain, it can't be changed or deleted, making it a trustworthy and reliable record of information.
+
+## What are the benefits of blockchain?
+
+One of the main advantages of blockchain is that it eliminates the need for intermediaries or trusted third parties to validate transactions. This means that parties can transact with each other directly and securely without the need for a middleman. Other benefits of blockchain include:
+
+Ensuring data privacy and security: Blockchain can be used to store and share sensitive data in a secure and transparent manner, making it ideal for applications that require high levels of data privacy and security.
+
+Reducing fraud and corruption: Blockchain can help prevent fraud and corruption by providing a tamper-proof record of all transactions, making it difficult for bad actors to manipulate the data.
+
+## Improving transparency and accountability: Blockchain can enhance transparency and accountability by providing a transparent and immutable record of all transactions, making it easier to track and audit transactions.
 
 ## What is a Block?
 
@@ -55,15 +65,13 @@ Address[Address] --> box4[box ...]
 
 ## What is a Box?
 
-A box is a simple container for Value and Data.
-Each Blockchain have different sections and criteria for the box creation but the most common are:
+In the eUTxO system, boxes are virtual containers that hold tokens and other data. Each box represents a unit of value or a token on the blockchain. Boxes can hold one or more tokens, and they can be created, consumed, and modified by transactions.
 
-- Value
-  - Section in which the transaction value is stored in its native form
-- Data
-  - Section in which the transaction data is stored in form of a **Smart Contract**
+When a transaction is created on the eUTxO system, it consumes one or more input boxes and creates one or more output boxes. The input boxes represent the tokens or values being spent, and the output boxes represent the new tokens or values being created as a result of the transaction.
 
-Natively, Bitcoin only allow to store Value while Ergo allows to store Value and Data.
+Boxes can also be used to enforce rules and conditions on the blockchain network. For example, a box can be created with certain spending conditions, such as requiring a specific password or signature to spend the tokens. This can be useful in creating more complex transactions and enforcing security on the network.
+
+Overall, boxes are a key concept in the eUTxO system, as they represent the units of value and tokens being transacted on the network. By using boxes, developers can create powerful and flexible applications that can be customized to meet a wide range of needs and requirements.
 
 ```mermaid
 graph LR
@@ -77,7 +85,9 @@ Data --> SmartContracts([Smart Contracts])
 
 ## What is a Smart Contract?
 
-A smart contract is an on-chain code that upon a successful validation, is executed on the blockchain creating a smart **transaction**.
+Smart contracts are self-executing computer programs that run on the blockchain network. They are essentially a set of rules and conditions that govern how a transaction will be executed. Smart contracts are ideal for a wide range of applications, including financial transactions, supply chain management, and more, as they eliminate the need for intermediaries and provide a high level of security and transparency.
+
+It is on-chain code that upon a successful validation, is executed on the blockchain creating a smart **transaction**.
 
 In Ergo a smart contract is also called a Guard Script.
 
