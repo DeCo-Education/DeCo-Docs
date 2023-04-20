@@ -6,6 +6,11 @@ sidebar_position: 0
 
 # Basic Syntax In ErgoScript
 
+```text title="Completion Status"
+Version: 1st Version
+Written by: LGD
+```
+
 ```scala
 val bool: Boolean = true
 
@@ -42,7 +47,7 @@ ErgoScript is strongly typed, you should always know what types you are dealing 
 
 ```
 
-ErgoScript is based off of Scala, which brings means we have some standard functional programming methods and syntax
+ErgoScript is based off of Scala, which means we have some standard functional programming methods and syntax
 
 ```scala
   val myMap: Coll[(Int, Long)] = {      // Wrap this val statement into a function that returns a collection of integers paired with longs
