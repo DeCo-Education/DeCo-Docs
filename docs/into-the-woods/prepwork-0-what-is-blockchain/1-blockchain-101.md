@@ -125,23 +125,20 @@ Is with this consensus that the blockchain remains secure without bad actors mod
 
 ## Test your knowledge
 
-<details> 
-<summary> <strong>&nbsp;Can Ergo be considered a decentralized ledger? </strong> </summary>
-&emsp; Yes! <br/>
-&emsp; Ergo is based on Blockchain technology which inherits all characteristics like decentralized ledger.
-</details>
-<br/>
-<details> 
-<summary> <strong>&nbsp;What type of boxes are created after a TX? </strong> </summary>
-&emsp; Ergo creates two types of boxes: <br/>
-&emsp;&emsp; The "unspent boxes" and the "spent boxes" 
-</details>
-<br>
-<details> 
-<summary> <strong>&nbsp;What type of information can Ergo Blockchain store?</strong> </summary>
-&emsp; Ergo Blockchain supports natively the following type: <br/>
-&emsp;&emsp; Value and Data.
-</details>
+### Can Ergo be considered a decentralized ledger?
+
+Yes!
+Ergo is based on Blockchain technology which inherits all characteristics like decentralized ledger.
+
+### What type of boxes are created after a TX?
+
+Ergo creates two types of boxes:
+The "unspent boxes" and the "spent boxes"
+
+### What type of information can Ergo Blockchain store?
+
+Ergo Blockchain supports natively the following type:
+Value and Data.
 
 ---
 
