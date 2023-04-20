@@ -1,6 +1,6 @@
 ---
 id: k-security-basics
-title: Chill n Learn 2. Knowledge - Security Basics
+title: [WIP] Chill n Learn 2. Knowledge - Security Basics
 sidebar_position: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: k-guard-script-1-level-deep
-title: Lesson 2. Knowledge - Guard Script 1 Level Deep
+title: [WIP] Lesson 2. Knowledge - Guard Script 1 Level Deep
 sidebar_position: 1
 ---
 

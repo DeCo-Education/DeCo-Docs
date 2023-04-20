@@ -1,6 +1,6 @@
 ---
 id: ho-your-first-token
-title: Lesson 4. Hands-On - Your First Token
+title: [WIP] Lesson 4. Hands-On - Your First Token
 sidebar_position: 5
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: k-development-env-set-up-js
-title: Lesson 1.1. Knowledge - Development Env Set Up (JavaScript)
+title: [WIP] Lesson 1.1. Knowledge - Development Env Set Up (JavaScript)
 sidebar_position: 2
 ---
 

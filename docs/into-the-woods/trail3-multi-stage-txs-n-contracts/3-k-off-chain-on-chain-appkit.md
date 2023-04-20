@@ -1,6 +1,6 @@
 ---
 id: k-off-chain-on-chain-appkit
-title: Lesson 3. Knowledge - Off-chain, On-chain & App Kit
+title: [WIP] Lesson 3. Knowledge - Off-chain, On-chain & App Kit
 sidebar_position: 2
 ---
 

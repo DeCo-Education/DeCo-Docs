@@ -1,6 +1,6 @@
 ---
 id: ho-designing-an-nft-creator-proxy-contract
-title: Lesson 7. Hands-On - Designing an NFT Creator Proxy Contract
+title: [WIP] Lesson 7. Hands-On - Designing an NFT Creator Proxy Contract
 sidebar_position: 6
 ---
 
