@@ -35,11 +35,11 @@ We will use this proxy contract and Ergo AppKit to write the off-chain code for 
 	// (*) Note:
 	//           1. Mining fee box is always the last box in the set of OUTPUTS of a transaction,
 	//              I am just showing this for clarity, but it will not be accessed in this contract.
-  //           2. If there is any that change remains in the proxy,
+    //           2. If there is any that change remains in the proxy,
 	//							it is sent back to the buyer wallet.
 
 	// Contract variables
-  val buyerPK: SigmaProp          = PK(buyerPKString)
+    val buyerPK: SigmaProp          = PK(buyerPKString)
 	val buyerProxyInputs: Coll[Box] = INPUTS.filter({ (input: Box) => input.propositionBytes == SELF.propositionBytes })
 	val buyerAmount: Long           = buyerProxyInputs.fold(0L)({ (input: Box, acc: Long) => acc + input.value })
 	val provincialSalesTax: Long    = (AlcoholSaleAmount * ProvincialSalesTaxNum) / ProvincialSalesTaxDenom
@@ -203,7 +203,7 @@ We will use this proxy contract and Ergo AppKit to write the off-chain code for 
 # Alcohol Sale Transaction AppKit Code
 
 ```scala
-// ====== Alcohol Sale TransactioAppKit Example ====== //
+// ====== Alcohol Sale Transaction AppKit Example ====== //
 
 // Constants that we assume to know beforehand are written in UpperCamelCase.
 
