@@ -108,7 +108,7 @@ Other Conditions:
 
 After forming the framework. Take the actions and refer to its components to design the ErgoScript for the Guard Script.
 
-**1st**, Fulfill the Box Conditions
+Fill the Box Conditions
 
 ```scala
 {
