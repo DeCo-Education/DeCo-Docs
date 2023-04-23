@@ -517,3 +517,7 @@ It allows a contract to construct another contract’s propositional bytes using
 
 }
 ```
+
+### Helpful article:
+
+1. [Ergo Lang Spec](https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md)
