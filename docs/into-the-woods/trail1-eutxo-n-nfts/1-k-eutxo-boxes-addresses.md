@@ -6,6 +6,10 @@ sidebar_position: 0
 
 # Lesson 1: Knowledge - eUTxO, Boxes, Addresses
 
+```text title="Completion Status"
+Version: 1st Version
+```
+
 ## What is eUTxO
 
 eUTxO stands for "extended Unspent Transaction Output," which is just a fancy way of saying it's a way to keep track of who owns what in a blockchain.
