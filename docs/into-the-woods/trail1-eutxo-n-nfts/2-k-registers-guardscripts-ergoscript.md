@@ -71,13 +71,13 @@ As shown in the table above, these scripts are stored as bytes in R1 of a box. T
 
 What this means is that for a scripts that has the exact same logic for proving its spending condition, it will have the exact same address. For example:
 
-```text title = "Adam's script"
+```text title="Adam script"
 {
     sigmaProp(adamsPK)
 }
 ```
 
-```text title = "Excessive Adam's Script"
+```text title="Excessive Adam Script"
 {
     val onePlusOne = 1 + 1
     sigmaProp(adamsPK)
@@ -106,7 +106,7 @@ ErgoScript is a highly expressive language that allows for the creation of compl
 
 In this article, we will not go too deep into ErgoScript. However, the article [Trail 2 - Ergo Syntax](../trail2-ergo-coding/1-t-ergo-syntax.md) will dive a lot deeper into the details of ErgoScript. But here's a quick example:
 
-```text title = "Height 945678"
+```text title="Height 945678"
 {
     val isHeight945678 = CONTEXT.HEIGHT == 945678
     sigmaProp(isHeight945678)
