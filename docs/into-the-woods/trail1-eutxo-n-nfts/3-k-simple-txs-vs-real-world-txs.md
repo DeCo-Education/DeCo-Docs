@@ -22,30 +22,15 @@ When a block is added to the blockchain, the inputs referenced in the transactio
 
 Real world transactions (transaction that happens in reality between human beings) are very similar to blockchain txs in a way where there can be multiple transactions that happens in a scenario for a scenario to be completed successfully.
 
-Let's take lending as a real world transaction. A scenario between 2 parties. One, the lender, and two, the borrower. In the scenario, a borrower requests from the lender a capital, and promises to return the funds back with a certain amount of interest rate.
+# Simple Transactions
 
-This scenario can then be broken down into smaller steps. For example, we can break it down into:
+The most basic of all transactions is the transaction between two human beings. When we give another person X amount of funds. That is considered the most basic of transactions.
 
-1. Borrower makes a request of X amount with interest rate of Y% to Lender
-2. Lender agrees to fund X amount and provides borrower with funding
-3. Borrower receives funding and utilize it for his business
-4. Borrower repays the funds to the lender at Y% interest rate every month till pays the total amount with interest
-5. The borrow scenario transaction completes and ends
+```
+Real world Tx - Bob gave Amy X dollars.
+Ergo Tx - Bob send Amy X Ergs.
+```
 
-As you can see, a real world scenario can be broken down into smaller transactions too. This transactions can then in turn, be used as a way to translate it to transactions on the blockchain.
+Though simple, it is really important to anchor ourselves to this simple concept, on what a tx essentially is. This removes the fear of the increasing complexity of the system as we develop our skills and build more complicated multi-staged transactions.
 
-## Real World Txs to Blockchain Txs
-
-Taking the real world transactions, we can translate the them to blockchain txs by understanding how boxes can be utilize to replicate the scenario.
-
-| Real World                                                                                                          | Blockchain Tx                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Borrower makes a request of X amount with interest rate of Y% to Lender                                          | Borrower creates a box with the smart contract requesting X amount and pay back Y% from Lender and that the box (if funded) will send the funds to Borrower |
-| 2. Lender agrees to fund X amount and provides borrower with funding                                                | Lender agrees by funding the box that was created with X amount                                                                                             |
-| 3. Borrower receives funding and utilize it for his business                                                        | Borrower receives the funding from the funded box                                                                                                           |
-| 4. Borrower repays the funds to the lender at Y% interest rate every month till pays the total amount with interest | Borrower sends back the funds at Y% interest rate every month till the total amount with interest is paid back                                              |
-| 5. The borrow scenario transaction completes and ends                                                               | Transaction ends                                                                                                                                            |
-
-We are able to emulate the lending scenario in the blockchain as similar as we could. This allows developers to build smart contracts on ergo blockchain that handles lending.
-
-This is an effective way to bring the efficiencies of blockchain to the real world. Thus assisting people in a more globalized manner, while improving current systems.
+So remember, tx essentially boils down to sending something, that'd be Ergs, money, tokens, nfts, from one party (address) to another party (address).
