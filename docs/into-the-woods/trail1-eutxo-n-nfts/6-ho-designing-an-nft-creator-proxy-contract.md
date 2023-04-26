@@ -12,7 +12,7 @@ First off,
 
 A proxy contract is what its name means. A proxy. To be more specific, it is a proxy that exists as a smart contract. This proxy contract can be used as an intermediary to ensure that data and txs are correctly devised in the way the user wants it to be.
 
-There is a [whole article](https://raw.githubusercontent.com/ergoplatform/eips/master/eip-0017.md) explaining what it is. However, we won't get into that detail. Just see it as a proxy.
+There is a [whole EIP (EIP-0017)](https://github.com/ergoplatform/eips/blob/master/eip-0017.md) explaining what it is. However, we won't get into that detail. Just see it as a proxy.
 
 ### How is it useful
 
