@@ -1,6 +1,6 @@
 ---
 id: ho-desiging-an-nft-box
-title: WIP Lesson 5. Hands-On - Minting a Token
+title: Lesson 5. Hands-On - Minting a Token
 sidebar_position: 4
 ---
 
