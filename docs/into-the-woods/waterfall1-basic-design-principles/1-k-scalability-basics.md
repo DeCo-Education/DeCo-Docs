@@ -14,7 +14,7 @@ The same exists for dApps. This happens when the dApp is not able to scale its s
 
 To scale is to allow a system to handle a big load of requests in a short amount of time. In traditional software engineering, these are discussed in terms of vertical scaling and horizontal scaling.
 
-Vertical scaling is done by improving the efficiency of the code and maximizing the throughput of a single server.
+Vertical scaling is done by improving the efficiency of the code and maximizing the throughput of a single server by increasing hardware.
 
 Horizontal scaling is done by increasing the amount of servers to handle the load and throughput.
 
